@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adverix | Ecommerce & growth studio</title>
+<meta name="description" content="Adverix is an ecommerce and growth studio. Design, development, marketing and AI for online brands, from one team you reach directly on WhatsApp.">
+<link rel="canonical" href="https://adverix.co/">
+<link rel="alternate" hreflang="en" href="https://adverix.co/?lang=en">
+<link rel="alternate" hreflang="he" href="https://adverix.co/?lang=he">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rubik:wght@500;700;800&family=Heebo:wght@400;500;600&family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+  .steps.five{grid-template-columns:repeat(5,1fr)}
+  /* hero headline: each line always fits on one row */
+  #spot{font-size:clamp(38px,9.2vw,168px)}
+  #spot .line>span{white-space:nowrap}
+  /* process: vertical timeline below desktop */
+  @media (max-width:1200px){
+    .steps,.steps.five{grid-template-columns:1fr;row-gap:44px;padding-top:0;padding-inline-start:52px;max-width:620px}
+    .steps::before,.steps .fill{display:block;top:8px;bottom:8px;width:2px;height:auto;inset-inline-start:7px}
+    .steps::before{inset-inline-end:auto}
+    .steps .fill{bottom:auto;height:calc(var(--p,0) * (100% - 16px))}
+    .step::before{display:block;top:5px;inset-inline-start:-52px}
+    .step .meta{margin-bottom:12px}
+  }
+  .home-faq{margin-top:clamp(48px,6vw,80px)}
+</style>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:image" content="https://adverix.co/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PYW64H71DS"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-PYW64H71DS');
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="wa.me/"]');if(a)gtag('event','whatsapp_click',{page_path:location.pathname,link_text:(a.textContent||'').trim().slice(0,60)})});</script>
+</head>
+<body>
+<div class="cur" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-in">
+    <a href="#top" class="logo" aria-label="Adverix home">adverix<b></b></a>
+    <nav class="nav-links" aria-label="Main">
+      <div class="drop"><a data-slug="services" data-i18n="nav_services">Services</a><div class="mega" id="mega"></div></div>
+      <a data-slug="work" data-i18n="nav_work">Work</a>
+      <a data-slug="industries" data-i18n="nav_ind">Industries</a>
+      <a data-slug="how-we-work" data-i18n="nav_how">How we work</a>
+      <a data-slug="about" data-i18n="nav_about">About</a>
+      <a data-slug="blog" data-i18n="nav_blog">Blog</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="he" aria-pressed="false">עב</button>
+      </div>
+      <a data-wa target="_blank" rel="noopener" class="btn btn-dark" data-i18n="cta_call">Chat on WhatsApp</a>
+      <button class="burger" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-menu">
+  <a data-slug="services" data-i18n="nav_services">Services</a>
+  <a data-slug="work" data-i18n="nav_work">Work</a>
+  <a data-slug="industries" data-i18n="nav_ind">Industries</a>
+  <a data-slug="how-we-work" data-i18n="nav_how">How we work</a>
+  <a data-slug="about" data-i18n="nav_about">About</a>
+  <a data-slug="contact" data-i18n="nav_contact">Contact</a>
+  <a data-wa target="_blank" rel="noopener" class="btn btn-dark" data-i18n="cta_call">Chat on WhatsApp</a>
+</div>
+
+<main id="top">
+  <section class="hero wrap">
+    <span class="eyebrow fade"><i></i><span data-i18n="hero_eyebrow">Ecommerce & growth studio · US & Israel</span></span>
+    <h1 class="h1 spot" id="spot">
+      <span class="base"><span class="line"><span data-i18n="hero_l1">You run the brand.</span></span><span class="line"><span data-i18n="hero_l2">We run the <span class="grad-text">store</span><span class="dot">.</span></span></span></span>
+      <span class="paint" aria-hidden="true"><span class="line"><span data-i18n="hero_l1">You run the brand.</span></span><span class="line"><span data-i18n="hero_l2">We run the <span class="grad-text">store</span><span class="dot">.</span></span></span></span>
+    </h1>
+    <p class="lead fade d1" data-i18n="hero_lead">Design, development, marketing and AI for ecommerce brands. One team you reach directly on WhatsApp, for everything from a new collection page to the flow that wins back abandoned carts.</p>
+    <div class="hero-ctas fade d2">
+      <a data-wa target="_blank" rel="noopener" class="btn btn-dark"><svg class="wa-ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span data-i18n="cta_call">Chat on WhatsApp</span></a>
+      <a data-slug="work" class="btn btn-line" data-i18n="cta_work">See our work</a>
+    </div>
+    <p class="hero-note fade d2" data-i18n="hero_note">Free first call · Direct on WhatsApp · No commitment</p>
+    <div class="pillars fade d3">
+      <a class="pillar" data-slug="web-design"><span class="n">01</span><span><strong data-i18n="pl1">Design & build</strong><span class="d" data-i18n="pl1d">Shopify stores, websites, new features and integrations that look like your brand.</span></span></a>
+      <a class="pillar" data-slug="seo-geo"><span class="n">02</span><span><strong data-i18n="pl2">Grow</strong><span class="d" data-i18n="pl2d">Marketing, conversion work, email flows and AI that bring in sales and save you time.</span></span></a>
+      <a class="pillar" data-slug="website-management"><span class="n">03</span><span><strong data-i18n="pl3">Run</strong><span class="d" data-i18n="pl3d">Launches, updates, fixes and improvements, handled every month.</span></span></a>
+    </div>
+  </section>
+
+  <div class="marquee" aria-label="Clients">
+    <div class="marquee-track">
+      <span>May Mashiah</span><span>Olipop</span><span>Carter Eve</span><span>Rakoh</span><span>Gymijet</span><span>Dialogue</span><span>ABcommerce</span><span>Mosaic</span><span>Shevet</span>
+      <span>May Mashiah</span><span>Olipop</span><span>Carter Eve</span><span>Rakoh</span><span>Gymijet</span><span>Dialogue</span><span>ABcommerce</span><span>Mosaic</span><span>Shevet</span>
+    </div>
+  </div>
+
+  <section class="sec work" id="work">
+    <div class="wrap">
+      <div class="work-head">
+        <div><span class="label" data-i18n="w_label">Selected work</span><h2 class="h2" style="margin-top:20px" data-i18n="w_title">Brands we build for.</h2></div>
+        <div class="counter" id="counter"><b>01</b> / 09</div>
+      </div>
+    </div>
+    <div class="stage" id="stage" aria-roledescription="carousel" aria-label="Projects"></div>
+    <div class="wrap">
+      <div class="caption" aria-live="polite"><div class="h3" id="capName">May Mashiah</div><p id="capMeta"></p></div>
+      <div class="gal-ctrls">
+        <button type="button" id="prev" aria-label="Previous project"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <button type="button" id="next" aria-label="Next project"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 5l7 7-7 7"/></svg></button>
+      </div>
+      <div class="dial" id="dial" role="tablist" aria-label="Filter projects"><span class="needle"></span></div>
+    </div>
+  </section>
+
+  <section class="sec wrap" id="services">
+    <div class="split sec-head">
+      <div class="reveal"><span class="label" data-i18n="sv_label">What we do</span><h2 class="h2" data-i18n="sv_title">Whatever your store needs next.</h2></div>
+      <div class="reveal">
+        <p class="lead" data-i18n="sv_lead">A homepage for the new collection. An integration that keeps breaking. A checkout that leaks. Email flows that look like your brand. If it helps you sell, we design it, build it and keep it running.</p>
+        <div style="display:flex;gap:32px;margin-top:28px;font-weight:500;flex-wrap:wrap"><a data-slug="services"><span data-i18n="sv_all">All services</span> <span class="arr">→</span></a><a data-slug="industries" style="color:var(--ink-2)"><span data-i18n="sv_ind">Industries we serve</span> <span class="arr">→</span></a></div>
+      </div>
+    </div>
+    <div class="svc-grid reveal" id="svcGrid"></div>
+  </section>
+
+  <section class="sec wrap" style="padding-top:0">
+    <div class="split sec-head">
+      <div class="reveal"><span class="label" data-i18n="ch_label">Why one team</span><h2 class="h2" data-i18n="ch_title">Stop managing five vendors.</h2></div>
+      <p class="lead reveal" data-i18n="ch_lead">A designer, a developer, a marketing agency and someone for email. Nobody owns the result, and you end up managing all of them. With Adverix, one team owns the whole thing.</p>
+    </div>
+    <div class="compare reveal" id="compare">
+      <div class="compare-head"><div class="label" data-i18n="ch_area">Area</div><div class="label" data-i18n="ch_before">The usual setup</div><div class="label" data-i18n="ch_after">With Adverix</div></div>
+      <div id="crows"></div>
+      <div class="compare-foot"><p data-i18n="ch_foot">One team, one plan, one WhatsApp chat.</p><a data-slug="how-we-work" class="btn btn-dark"><span data-i18n="cta_how">How we work</span> <span class="arr">→</span></a></div>
+    </div>
+  </section>
+
+  <section class="sec wrap" id="process" style="padding-top:0">
+    <div class="sec-head reveal"><span class="label" data-i18n="p_label">The process</span><h2 class="h2" style="max-width:14ch" data-i18n="p_title">From first message to live, in five steps.</h2></div>
+    <div class="steps five" id="steps"><i class="fill"></i></div>
+  </section>
+
+  <section class="sec" style="background:var(--bg-2)">
+    <div class="wrap">
+      <div class="sec-head reveal"><span class="label" data-i18n="wy_label">Why us</span><h2 class="h2" style="max-width:14ch" data-i18n="wy_title">Why brands work with us.</h2></div>
+      <div class="why" id="why"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="about">
+    <div class="wrap about">
+      <div class="portrait reveal"><img src="assets/nimrod.jpeg" alt="Nimrod Bash, founder of Adverix" loading="lazy" width="800" height="800"></div>
+      <div class="reveal">
+        <span class="label" data-i18n="a_label">Meet the founder</span>
+        <h2 class="h2" data-i18n="a_title">Started by a marketer who lives in ecommerce.</h2>
+        <p class="lead" data-i18n="a_p1">Nimrod Bash spent over ten years in performance marketing, ad tech and user acquisition, including running the official marketing agency for Wix.com.</p>
+        <p class="lead" data-i18n="a_p2">He started Adverix so brands could get design, development and marketing from one team that actually picks up. He stays close to every account and is one message away whenever you want him involved.</p>
+        <div class="creds"><span>Shopify</span><span>WordPress</span><span>Webflow</span><span>Google Ads</span><span>Meta Ads</span><span>Klaviyo</span><span>GA4</span><span>AI</span></div>
+        <div class="sig">Nimrod<small data-i18n="a_role">Nimrod Bash, Founder</small></div>
+        <p style="margin-top:24px"><a data-slug="about" class="btn btn-line"><span data-i18n="a_more">More about us</span> <span class="arr">→</span></a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec wrap" style="padding-top:0">
+    <div class="faq-wrap home-faq">
+      <div class="reveal"><span class="label" style="display:block;margin-bottom:18px" data-i18n="fq_label">FAQ</span><h2 class="h2" data-i18n="fq_title">Questions we get a lot.</h2></div>
+      <div class="faq reveal" id="faq"></div>
+    </div>
+  </section>
+
+  <section class="cta wrap" id="contact">
+    <div class="cta-top">
+      <span class="label reveal" data-i18n="c_label">Start a project</span>
+      <h2 class="h1 spot reveal" id="spot2" style="margin-top:28px">
+        <span class="base" data-i18n="c_title">Let's talk<span class="dot">.</span></span>
+        <span class="paint" aria-hidden="true" data-i18n="c_title">Let's talk<span class="dot">.</span></span>
+      </h2>
+      <p class="lead reveal" data-i18n="c_lead">Tell us what your store needs next: a feature, a fix, a launch or a full growth plan. We will tell you how we would do it and what it takes.</p>
+      <div class="promises reveal"><span data-i18n="pr1">Direct on WhatsApp</span><span data-i18n="pr2">No commitment</span><span data-i18n="pr3">10+ years of experience</span><span data-i18n="pr4">Clear price before we start</span></div>
+    </div>
+    <div class="contact-grid reveal">
+      <div class="direct">
+        <div><blockquote data-i18n="c_quote">"We work like part of your team."</blockquote><p data-i18n="c_quote_s">No call center, no tickets. You message the people doing the work and get a real answer. Prefer email or phone? Both work too.</p></div>
+        <div class="ways">
+          <a href="mailto:info@adverix.co"><span data-i18n="cw2">Email</span><strong>info@adverix.co</strong></a>
+          <a href="tel:+19179758217"><span data-i18n="cw3">Phone</span><strong>+1 917 975 8217</strong></a>
+          <a href="https://wa.me/19179758217" target="_blank" rel="noopener"><span>WhatsApp</span><strong>+1 917 975 8217</strong></a>
+        </div>
+      </div>
+      <div class="form">
+        <div class="h3" data-i18n="f_title">The fastest way: WhatsApp</div>
+        <p data-i18n="f_sub">One tap opens a chat with our team. Tell us what you need and we will take it from there.</p>
+        <a data-wa target="_blank" rel="noopener" class="btn btn-dark btn-wa" style="width:100%"><svg class="wa-ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span data-i18n="f_send">Message us on WhatsApp</span></a>
+        <small data-i18n="f_privacy">We usually reply the same business day.</small>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div><a href="#top" class="logo">adverix<b></b></a><p data-i18n="ft_about">Design, development, marketing and AI for ecommerce brands.</p><a data-wa target="_blank" rel="noopener" class="btn btn-dark" style="margin-top:24px"><svg class="wa-ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span data-i18n="cta_call">Chat on WhatsApp</span></a><p style="margin-top:22px"><a href="mailto:info@adverix.co">info@adverix.co</a> · <a href="tel:+19179758217" dir="ltr">+1 917 975 8217</a></p></div>
+      <div><h4 id="ft1h"></h4><ul id="ft1"></ul></div>
+      <div><h4 id="ft2h"></h4><ul id="ft2"></ul></div>
+      <div><h4 id="ft3h"></h4><ul id="ft3"></ul></div>
+    </div>
+    <div class="foot-bottom"><span data-i18n="ft_copy">© 2026 Adverix. All rights reserved.</span><span><a data-slug="accessibility" data-i18n="ft_acc">Accessibility</a> · <a data-slug="privacy" data-i18n="ft_priv">Privacy policy</a></span></div>
+    <div class="foot-big" aria-hidden="true">adverix</div>
+  </div>
+</footer>
+<a class="wa-float" data-wa target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="wa-ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span class="wa-tip" data-i18n="wa_tip">Chat with us on WhatsApp</span></a>
+
+<script>
+(() => {
+const T = {
+ en:{
+  nav_services:'Services',nav_work:'Work',nav_ind:'Industries',nav_how:'How we work',nav_about:'About',nav_blog:'Blog',nav_contact:'Contact',
+  cta_call:'Chat on WhatsApp',cta_work:'See our work',cta_how:'How we work',
+  hero_eyebrow:'Ecommerce & growth studio · US & Israel',
+  hero_l1:'You run the brand.',hero_l2:'We run the <span class="grad-text">store</span><span class="dot">.</span>',hero_l2p:'We run the store.',
+  hero_lead:'Design, development, marketing and AI for ecommerce brands. One team you reach directly on WhatsApp, for everything from a new collection page to the flow that wins back abandoned carts.',
+  hero_note:'Free first call · Direct on WhatsApp · No commitment',
+  pl1:'Design & build',pl1d:'Shopify stores, websites, new features and integrations that look like your brand.',
+  pl2:'Grow',pl2d:'Marketing, conversion work, email flows and AI that bring in sales and save you time.',
+  pl3:'Run',pl3d:'Launches, updates, fixes and improvements, handled every month.',
+  w_label:'Selected work',w_title:'Brands we build for.',
+  sv_label:'What we do',sv_title:'Whatever your store needs next.',
+  sv_lead:'A homepage for the new collection. An integration that keeps breaking. A checkout that leaks. Email flows that look like your brand. If it helps you sell, we design it, build it and keep it running.',
+  sv_all:'All services',sv_ind:'Industries we serve',
+  ch_label:'Why one team',ch_title:'Stop managing five vendors.',
+  ch_lead:'A designer, a developer, a marketing agency and someone for email. Nobody owns the result, and you end up managing all of them. With Adverix, one team owns the whole thing.',
+  ch_area:'Area',ch_before:'The usual setup',ch_after:'With Adverix',
+  ch_foot:'One team, one plan, one WhatsApp chat.',
+  p_label:'The process',p_title:'From first message to live, in five steps.',
+  wy_label:'Why us',wy_title:'Why brands work with us.',
+  a_label:'Meet the founder',a_title:'Started by a marketer who lives in ecommerce.',
+  a_p1:'Nimrod Bash spent over ten years in performance marketing, ad tech and user acquisition, including running the official marketing agency for Wix.com.',
+  a_p2:'He started Adverix so brands could get design, development and marketing from one team that actually picks up. He stays close to every account and is one message away whenever you want him involved.',
+  a_role:'Nimrod Bash, Founder',a_more:'More about us',
+  fq_label:'FAQ',fq_title:'Questions we get a lot.',
+  c_label:'Start a project',c_title:'Let\'s talk<span class="dot">.</span>',c_title_p:"Let's talk.",
+  c_lead:'Tell us what your store needs next: a feature, a fix, a launch or a full growth plan. We will tell you how we would do it and what it takes.',
+  pr1:'Direct on WhatsApp',pr2:'No commitment',pr3:'10+ years of experience',pr4:'Clear price before we start',
+  c_quote:'"We work like part of your team."',c_quote_s:'No call center, no tickets. You message the people doing the work and get a real answer. Prefer email or phone? Both work too.',
+  cw2:'Email',cw3:'Phone',
+  f_title:'The fastest way: WhatsApp',f_sub:'One tap opens a chat with our team. Tell us what you need and we will take it from there.',
+  f_send:'Message us on WhatsApp',f_privacy:'We usually reply the same business day.',wa_tip:'Chat with us on WhatsApp',wa_msg:"Hi Adverix, I'd like to hear more about working with you.",
+  f_msg:'New project enquiry from adverix.co',
+  ft_about:'Design, development, marketing and AI for ecommerce brands.',
+  ft_copy:'© 2026 Adverix. All rights reserved.',ft_acc:'Accessibility',ft_priv:'Privacy policy',
+  visit:'Visit site',case:'Case study',step:'Step',all:'All services →',
+ },
+ he:{
+  nav_services:'שירותים',nav_work:'עבודות',nav_ind:'תעשיות',nav_how:'איך אנחנו עובדים',nav_about:'אודות',nav_blog:'בלוג',nav_contact:'צור קשר',
+  cta_call:'דברו איתנו בוואטסאפ',cta_work:'לעבודות שלנו',cta_how:'איך אנחנו עובדים',
+  hero_eyebrow:'סטודיו לאיקומרס וצמיחה · ארה"ב וישראל',
+  hero_l1:'אתם על המותג.',hero_l2:'אנחנו על ה<span class="grad-text">חנות</span><span class="dot">.</span>',hero_l2p:'אנחנו על החנות.',
+  hero_lead:'עיצוב, פיתוח, שיווק ו-AI למותגים שמוכרים אונליין, בארץ ובעולם. צוות אחד שזמין לכם ישירות בוואטסאפ, מחנות באנגלית שמוכרת לארה"ב ועד הקולקציה הבאה.',
+  hero_note:'שיחה ראשונה חינם · ישירות בוואטסאפ · בלי התחייבות',
+  pl1:'עיצוב ובנייה',pl1d:'חנויות Shopify, אתרים, פיצ\'רים חדשים ואינטגרציות שנראים כמו המותג שלכם.',
+  pl2:'צמיחה',pl2d:'שיווק, שיפור המרות, תהליכי מייל ו-AI שמביאים מכירות וחוסכים לכם זמן.',
+  pl3:'ניהול שוטף',pl3d:'השקות, עדכונים, תיקונים ושיפורים, בטיפול כל חודש.',
+  w_label:'עבודות נבחרות',w_title:'מותגים שאנחנו בונים להם.',
+  sv_label:'מה אנחנו עושים',sv_title:'כל מה שהחנות צריכה עכשיו.',
+  sv_lead:'עמוד בית לקולקציה החדשה. אינטגרציה שכל הזמן נשברת. קופה שמאבדת קונים. תהליכי מייל שנראים כמו המותג. אם זה עוזר לכם למכור, אנחנו מעצבים, בונים ומתחזקים את זה.',
+  sv_all:'לכל השירותים',sv_ind:'התעשיות שלנו',
+  ch_label:'למה צוות אחד',ch_title:'מספיק לנהל חמישה ספקים.',
+  ch_lead:'מעצב, מפתח, סוכנות שיווק ומישהו למיילים. אף אחד לא אחראי על התוצאה, ובסוף אתם מנהלים את כולם. ב-Adverix צוות אחד אחראי על הכל.',
+  ch_area:'תחום',ch_before:'המצב הרגיל',ch_after:'עם Adverix',
+  ch_foot:'צוות אחד, תוכנית אחת, צ\'אט וואטסאפ אחד.',
+  p_label:'התהליך',p_title:'מההודעה הראשונה ועד שהחנות באוויר, בחמישה שלבים.',
+  wy_label:'למה אנחנו',wy_title:'למה מותגים עובדים איתנו.',
+  a_label:'הכירו את המייסד',a_title:'הוקם על ידי איש שיווק שחי איקומרס.',
+  a_p1:'נמרוד בש עוסק יותר מעשר שנים בשיווק ביצועים, אד-טק ורכישת משתמשים, כולל ניהול סוכנות השיווק הרשמית של Wix.com.',
+  a_p2:'הוא הקים את Adverix כדי שמותגים יקבלו עיצוב, פיתוח ושיווק מצוות אחד שבאמת עונה. הוא קרוב לכל לקוח, ובמרחק הודעה בכל פעם שתרצו אותו מעורב.',
+  a_role:'נמרוד בש, מייסד',a_more:'עוד עלינו',
+  fq_label:'שאלות נפוצות',fq_title:'שאלות שאנחנו שומעים הרבה.',
+  c_label:'מתחילים פרויקט',c_title:'בואו נדבר<span class="dot">.</span>',c_title_p:'בואו נדבר.',
+  c_lead:'ספרו לנו מה החנות צריכה עכשיו: פיצ\'ר, תיקון, השקה או תוכנית צמיחה מלאה. נגיד לכם איך היינו עושים את זה ומה זה דורש.',
+  pr1:'ישירות בוואטסאפ',pr2:'בלי התחייבות',pr3:'10+ שנות ניסיון',pr4:'מחיר ברור לפני שמתחילים',
+  c_quote:'"אנחנו עובדים כמו חלק מהצוות שלכם."',c_quote_s:'בלי מוקד ובלי פניות שמחכות בתור. כותבים לאנשים שעושים את העבודה ומקבלים תשובה אמיתית. מעדיפים מייל או טלפון? גם זה עובד.',
+  cw2:'מייל',cw3:'טלפון',
+  f_title:'הדרך הכי מהירה: וואטסאפ',f_sub:'לחיצה אחת פותחת שיחה עם הצוות שלנו. ספרו מה אתם צריכים, ואנחנו ניקח את זה משם.',
+  f_send:'שלחו לנו הודעה בוואטסאפ',f_privacy:'בדרך כלל אנחנו עונים באותו יום עסקים.',wa_tip:'דברו איתנו בוואטסאפ',wa_msg:'היי Adverix, אשמח לשמוע עוד על עבודה איתכם.',
+  f_msg:'היי Adverix, פנייה חדשה מהאתר.',
+  ft_about:'עיצוב, פיתוח, שיווק ו-AI למותגים שמוכרים אונליין.',
+  ft_copy:'© 2026 Adverix. כל הזכויות שמורות.',ft_acc:'הצהרת נגישות',ft_priv:'מדיניות פרטיות',
+  visit:'לאתר',case:'מקרה בוחן',step:'שלב',all:'לכל השירותים ←',
+ }
+};
+
+const MENU = [
+ {t:['Design & build','עיצוב ובנייה'],items:[['web-design',['Web design & development','עיצוב ובניית אתרים']],['ecommerce',['E-commerce & Shopify stores','חנויות אונליין ו-Shopify']],['business-websites',['Business websites','אתרים לעסקים']],['website-redesign',['Website redesign','חידוש ושדרוג אתרים']],['branding',['Logo design & branding','עיצוב לוגו ומיתוג']],['social-media',['Social media design','עיצוב לרשתות חברתיות']]]},
+ {t:['Grow','צמיחה'],items:[['seo-geo',['SEO + GEO','קידום אורגני SEO + GEO']],['advertising',['Paid ads & marketing','פרסום ממומן ושיווק']],['systems-ai',['Custom systems, AI & automation','מערכות, AI ואוטומציה']]]},
+ {t:['Care & management','ניהול ותחזוקה'],items:[['website-management',['Website management & care','ניהול ותחזוקת אתרים']],['wordpress-management',['WordPress management','ניהול אתר וורדפרס']],['shopify-management',['Shopify store management','ניהול חנות Shopify']],['hosting',['Managed hosting','אחסון אתרים מנוהל']]]},
+];
+const STUDIO = {t:['The studio','הסטודיו'],items:[['about',['About','אודות']],['how-we-work',['How we work','איך אנחנו עובדים']],['industries',['Industries','תעשיות']],['work',['Work','עבודות']],['blog',['Blog','בלוג']],['free-audit',['Free website audit','בדיקת אתר חינם']],['contact',['Contact','יצירת קשר']]]};
+
+const FEATURED = {
+ badge:['Most popular','הכי מבוקש'],t:['Store & website management','ניהול חנויות ואתרים'],p:['We run your Shopify store or site every month, like part of your team, so you can focus on the brand.','אנחנו מנהלים את חנות ה-Shopify או האתר כל חודש, כמו חלק מהצוות שלכם, ואתם מתמקדים במותג.'],
+ li:[['Collection launches and homepage updates','השקות קולקציה ועדכוני עמוד בית'],['New features, apps and integrations','פיצ\'רים, אפליקציות ואינטגרציות חדשים'],['Speed, UX and conversion improvements','שיפורי מהירות, חוויית משתמש והמרות'],['Backups, security and monitoring','גיבויים, אבטחה וניטור'],['Our team, directly on WhatsApp','הצוות שלנו, ישירות בוואטסאפ']],
+ cta:['See management plans','לחבילות הניהול'],slug:'website-management'
+};
+const SERVICES = [
+ {s:'ecommerce',k:['E-commerce','איקומרס'],t:['Shopify stores','חנויות Shopify'],p:['Stores designed to sell, from homepage to checkout.','חנויות שמתוכננות למכור, מעמוד הבית ועד הקופה.'],tags:['Shopify','WooCommerce','Klaviyo']},
+ {s:'web-design',k:['Design','עיצוב'],t:['Web design & development','עיצוב ובניית אתרים'],p:['Custom sites and features, built around your brand.','אתרים ופיצ\'רים בהתאמה אישית, שנבנים סביב המותג.'],tags:['Webflow','WordPress','Custom']},
+ {s:'advertising',k:['Marketing','שיווק'],t:['Marketing & email','שיווק ומייל'],p:['Paid campaigns and email flows that pay back.','קמפיינים ממומנים ותהליכי מייל שמחזירים את עצמם.'],tags:['Meta','Google','Klaviyo']},
+ {s:'systems-ai',k:['AI','AI'],t:['AI & automation','AI ואוטומציה'],p:['Automations and AI that take manual work off your plate.','אוטומציות ו-AI שמורידים מכם עבודה ידנית.'],tags:['Automation','AI','Integrations']},
+ {s:'seo-geo',k:['SEO + GEO','SEO + GEO'],t:['SEO + GEO','קידום SEO + GEO'],p:['Rank on Google and get cited by AI.','לעלות בגוגל ולהיות מצוטטים ב-AI.'],tags:['Google','ChatGPT','Shopping']},
+ {s:'branding',k:['Branding','מיתוג'],t:['Logo & brand identity','לוגו וזהות מותג'],p:['A brand that matches the product behind it.','מותג שמתאים למוצר שמאחוריו.'],tags:['Logo','Identity','Guidelines']},
+ {s:'social-media',k:['Social','סושיאל'],t:['Social media design','עיצוב לרשתות'],p:['Posts and ad creative people stop for.','פוסטים וקריאייטיב שעוצרים את הגלילה.'],tags:['Instagram','Meta','Templates']},
+ {s:'website-redesign',k:['Redesign','חידוש'],t:['Store & site redesign','חידוש חנויות ואתרים'],p:['Turn a tired store into a fast one that sells.','הופכים חנות עייפה לחנות מהירה שמוכרת.'],tags:['Speed','SEO safe','Mobile']},
+];
+const COMPARE = [
+ {t:['Store','חנות'],s:['Built to sell','בנויה למכור'],b:['A designer who disappears after launch.','מעצב שנעלם אחרי ההשקה.'],a:['Designed, built and run by the same team.','מעוצבת, נבנית ומנוהלת על ידי אותו צוות.']},
+ {t:['Marketing','שיווק'],s:['Traffic that converts','תנועה שממירה'],b:['An agency that blames the site when campaigns do not convert.','סוכנות שמאשימה את האתר כשהקמפיינים לא ממירים.'],a:['Campaigns, email and the store planned and measured together.','קמפיינים, מייל וחנות שמתוכננים ונמדדים יחד.']},
+ {t:['Operations','תפעול'],s:['Less manual work','פחות עבודה ידנית'],b:['Copy-paste, spreadsheets and apps that do not talk.','העתק-הדבק, גיליונות ואפליקציות שלא מדברות ביניהן.'],a:['Integrations, automations and AI connected to the store.','אינטגרציות, אוטומציות ו-AI שמחוברים לחנות.']},
+];
+const STEPS = [
+ [['Talk','שיחה'],['A free call to understand your store, goals and numbers.','שיחה חינם כדי להבין את החנות, המטרות והמספרים.'],'free'],
+ [['Plan & price','תוכנית ומחיר'],['A written plan with scope, timeline and a clear price.','תוכנית כתובה עם היקף, לוח זמנים ומחיר ברור.']],
+ [['Design','עיצוב'],['Designs you approve before anything is built.','עיצובים שאתם מאשרים לפני שבונים.']],
+ [['Build & launch','בנייה והשקה'],['Built, tested on every device, launched with you.','נבנה, נבדק בכל מכשיר ועולה לאוויר איתכם.']],
+ [['Grow','צמיחה'],['We stay on: launches, features and marketing.','אנחנו נשארים: השקות, פיצ\'רים ושיווק.'],'monthly'],
+];
+const WHY = [
+ {k:'01',t:['Direct on WhatsApp','ישירות בוואטסאפ'],p:['Text, call or send a voice note. You reach the people doing the work, not a ticket queue.','הודעה, שיחה או הקלטה. מגיעים לאנשים שעושים את העבודה, לא לתור של פניות.']},
+ {k:'02',t:['We find a way','מוצאים דרך'],p:['A new feature, an odd integration, a launch next week. If it helps you grow, we figure it out.','פיצ\'ר חדש, אינטגרציה מסובכת, השקה בשבוע הבא. אם זה עוזר לכם לצמוח, אנחנו מוצאים דרך.']},
+ {k:'03',t:['Part of your team','חלק מהצוות שלכם'],p:['We care about your numbers like they are ours, and we stay long after launch.','אכפת לנו מהמספרים שלכם כאילו הם שלנו, ואנחנו נשארים הרבה אחרי ההשקה.']},
+ {k:'10+',t:['A decade in','עשור של ניסיון'],p:['Over ten years in performance marketing, including the official Wix.com agency.','יותר מעשר שנים בשיווק ביצועים, כולל סוכנות השיווק הרשמית של Wix.com.']},
+ {k:'05',t:['Ecommerce-minded','חושבים איקומרס'],p:['Every page is built by people who know how traffic is bought and turned into sales.','כל עמוד נבנה על ידי אנשים שיודעים איך קונים תנועה ואיך הופכים אותה למכירות.']},
+ {k:'06',t:['You own everything','הכל שלכם'],p:['Your store, domain, ad accounts and data stay yours.','החנות, הדומיין, חשבונות הפרסום והנתונים נשארים שלכם.']},
+];
+const FAQ = [
+ [['What does Adverix do?','מה Adverix עושה?'],['We design, build and run online stores and websites, and grow them with marketing, email and AI. Whatever the store needs next, one team handles it.','אנחנו מעצבים, בונים ומנהלים חנויות אונליין ואתרים, ומצמיחים אותם עם שיווק, מייל ו-AI. מה שהחנות צריכה עכשיו, צוות אחד מטפל בזה.']],
+ [['Do you only work with ecommerce brands?','אתם עובדים רק עם חנויות אונליין?'],['Ecommerce is our focus, mostly fashion, jewelry, art and design. We also build and grow websites for service businesses.','איקומרס הוא הפוקוס שלנו, בעיקר אופנה, תכשיטים, אמנות ועיצוב. אנחנו בונים ומצמיחים גם אתרים לעסקי שירותים.']],
+ [['Do you work with US businesses?','אתם עוזרים למותגים ישראלים למכור בחו"ל?'],['Yes. We work with clients in the US and Israel, remotely, with calls in your time zone.','כן, וזה אחד הדברים שאנחנו הכי אוהבים לעשות. חנות באנגלית, מחירים בדולרים, משלוחים בינלאומיים ושיווק לקהל בארה"ב. אנחנו עובדים עם לקוחות בארה"ב ומכירים את השוק.']],
+ [['Can you work on a store someone else built?','אפשר לעבוד על חנות שמישהו אחר בנה?'],['Yes. A new feature, a broken integration, a faster page or a full takeover. A lot of our work starts on stores built elsewhere.','כן. פיצ\'ר חדש, אינטגרציה שנשברה, עמוד מהיר יותר או העברה מלאה אלינו. הרבה מהעבודה שלנו מתחילה בחנויות שנבנו במקום אחר.']],
+ [['How much does it cost?','כמה זה עולה?'],['It depends on the scope. After a short call you get a clear price before any work starts.','זה תלוי בהיקף. אחרי שיחה קצרה מקבלים מחיר ברור לפני שמתחילים לעבוד.']],
+ [['Which platforms do you use?','על אילו פלטפורמות אתם עובדים?'],['Mostly Shopify, plus WordPress, Webflow or custom code when a project needs it.','בעיקר Shopify, וגם וורדפרס, Webflow או קוד מותאם כשהפרויקט צריך.']],
+ [['Do I own everything?','הכל בבעלותי?'],['Yes. The store, the domain, the content and your accounts are yours.','כן. החנות, הדומיין, התוכן והחשבונות שלכם.']],
+];
+const WORK = [
+ {n:'May Mashiah',u:'https://maymashiah.com/',cs:'case-may-mashiah',img:'maymashiah',c:'shop',m:['Fashion · Shopify','אופנה · Shopify']},
+ {n:'Olipop',u:'https://drinkolipop.com/',img:'drinkolipop',c:'shop',m:['Beverage · E-commerce','משקאות · איקומרס']},
+ {n:'Carter Eve',u:'https://carterevejewelry.com/',img:'carterevejewelry',c:'shop',m:['Fine jewelry · E-commerce','תכשיטים · איקומרס']},
+ {n:'Dialogue',u:'https://nowdialogue.com/',img:'nowdialogue',c:'saas',m:['CRO platform · SaaS','פלטפורמת CRO · SaaS']},
+ {n:'Rakoh',u:'https://rakoh.com/',img:'rakoh',c:'shop',m:['Footwear · E-commerce','הנעלה · איקומרס']},
+ {n:'Mosaic',u:'https://www.mosaic.org.il/',img:'mosaic',c:'site',m:['AI policy institute · Website','מכון למדיניות AI · אתר תדמית']},
+ {n:'Gymijet',u:'https://gymijet.com/',img:'gymijet',c:'shop',m:['Portable fitness · E-commerce','כושר נייד · איקומרס']},
+ {n:'ABcommerce',u:'https://abcommerce.io/',img:'abcommerce',c:'saas',m:['A/B testing for Shopify · SaaS','בדיקות A/B ל-Shopify · SaaS']},
+ {n:'Shevet',u:'https://www.shevet-living.com/',img:'shevet',c:'site',m:['Boutique real estate · Website','נדל"ן בוטיק · אתר תדמית']},
+];
+const FILTERS = [{id:'all',l:['All','הכל']},{id:'shop',l:['Stores','חנויות']},{id:'site',l:['Websites','אתרים']},{id:'saas',l:['SaaS','SaaS']}];
+
+let lang = 'en';
+try { const s = new URLSearchParams(location.search).get('lang') || localStorage.getItem('adx-lang'); if (s === 'he' || s === 'en') lang = s; } catch(e){}
+const L = a => a[lang === 'he' ? 1 : 0];
+const link = slug => (lang === 'he' ? 'he/' : '') + slug + '.html';
+const arrowSvg = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h8v8M12 4L4 12"/></svg>';
+
+function renderLinks(){
+  document.querySelectorAll('[data-slug]').forEach(a => a.href = link(a.dataset.slug));
+  document.querySelectorAll('[data-wa]').forEach(a => a.href = 'https://wa.me/19179758217?text=' + encodeURIComponent(T[lang].wa_msg));
+}
+function renderMega(){
+  document.getElementById('mega').innerHTML = MENU.map(g => `<div><h4>${L(g.t)}</h4>${g.items.map(([s,n]) => `<a href="${link(s)}">${L(n)}</a>`).join('')}</div>`).join('') + `<div class="all"><span class="label">Adverix</span><a href="${link('services')}">${T[lang].all}</a></div>`;
+}
+function renderServices(){
+  const g = document.getElementById('svcGrid');
+  g.innerHTML = `<div class="featured"><div><span class="badge"><i></i>${L(FEATURED.badge)}</span><h3 class="h2">${L(FEATURED.t)}</h3><p>${L(FEATURED.p)}</p><a href="${link(FEATURED.slug)}" class="btn"><span>${L(FEATURED.cta)}</span> <span class="arr">→</span></a></div><ul>${FEATURED.li.map(x=>`<li>${L(x)}</li>`).join('')}</ul></div>` +
+   SERVICES.map(s => `<a class="svc" href="${link(s.s)}"><div class="svc-top"><span class="label">${L(s.k)}</span><span class="svc-arr">${arrowSvg}</span></div><div><h3 class="h3">${L(s.t)}</h3><p>${L(s.p)}</p><div class="tags">${s.tags.map(t=>`<span>${t}</span>`).join('')}</div></div></a>`).join('');
+  g.querySelectorAll('.svc').forEach(el => el.addEventListener('pointermove', e => { const r = el.getBoundingClientRect(); el.style.setProperty('--mx',(e.clientX-r.left)+'px'); el.style.setProperty('--my',(e.clientY-r.top)+'px'); }));
+}
+function renderCompare(){
+  document.getElementById('crows').innerHTML = COMPARE.map(r => `<div class="crow"><div class="topic"><span class="label">${L(r.t)}</span><strong>${L(r.s)}</strong></div><div class="before"><span class="mark">✕</span><span>${L(r.b)}</span></div><div class="after"><span class="mark">✓</span><span>${L(r.a)}</span></div></div>`).join('');
+}
+function renderSteps(){
+  const el = document.getElementById('steps');
+  el.querySelectorAll('.step').forEach(s => s.remove());
+  STEPS.forEach((s,i) => {
+    const d = document.createElement('div'); d.className = 'step';
+    const chip = s[2] === 'free' ? `<span class="chip g">${lang==='he'?'חינם':'Free'}</span>` : s[2] === 'monthly' ? `<span class="chip">${lang==='he'?'שוטף':'Ongoing'}</span>` : '';
+    d.innerHTML = `<div class="meta"><span class="label">${T[lang].step} 0${i+1}</span>${chip}</div><h3 class="h3">${L(s[0])}</h3><p>${L(s[1])}</p>`;
+    el.appendChild(d);
+  });
+  updateSteps();
+}
+function renderWhy(){ document.getElementById('why').innerHTML = WHY.map(w => `<div><span class="k">${w.k === '10+' ? '10<span class="grad-text">+</span>' : w.k}</span><h3 class="h3">${L(w.t)}</h3><p>${L(w.p)}</p></div>`).join(''); }
+function renderFaq(){ document.getElementById('faq').innerHTML = FAQ.map(([q,a]) => `<details><summary>${L(q)}<i aria-hidden="true"></i></summary><div class="ans">${L(a)}</div></details>`).join(''); }
+function renderFooter(){
+  const groups = [MENU[0], {t:MENU[1].t, items:[...MENU[1].items, ...MENU[2].items]}, STUDIO];
+  groups.forEach((g,i) => { document.getElementById('ft'+(i+1)+'h').textContent = L(g.t); document.getElementById('ft'+(i+1)).innerHTML = g.items.map(([s,n]) => `<li><a href="${link(s)}">${L(n)}</a></li>`).join(''); });
+}
+
+function applyLang(l){
+  lang = l;
+  document.documentElement.lang = l; document.documentElement.dir = l === 'he' ? 'rtl' : 'ltr';
+  document.querySelectorAll('[data-i18n]').forEach(el => { const v = T[l][el.dataset.i18n]; if (v != null) el.innerHTML = v; });
+  document.querySelectorAll('.lang button').forEach(b => b.setAttribute('aria-pressed', b.dataset.lang === l));
+  document.title = l === 'he' ? 'Adverix | סטודיו לצמיחה' : 'Adverix | Ecommerce & growth studio';
+  try { localStorage.setItem('adx-lang', l); } catch(e){}
+  renderLinks(); renderMega(); renderServices(); renderCompare(); renderSteps(); renderWhy(); renderFaq(); renderFooter(); renderDial(); updateCaption();
+}
+document.querySelectorAll('.lang button').forEach(b => b.addEventListener('click', () => applyLang(b.dataset.lang)));
+
+const nav = document.getElementById('nav'); let lastY = 0;
+addEventListener('scroll', () => { const y = scrollY; nav.classList.toggle('hide', y > lastY && y > 300 && !document.body.classList.contains('menu-open')); lastY = y; }, {passive:true});
+const burger = document.querySelector('.burger');
+burger.addEventListener('click', () => { const o = document.body.classList.toggle('menu-open'); burger.setAttribute('aria-expanded', o); });
+document.querySelectorAll('.mobile-menu a').forEach(a => a.addEventListener('click', () => { document.body.classList.remove('menu-open'); burger.setAttribute('aria-expanded', false); }));
+
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+function spotlight(el, auto){
+  if (!el) return;
+  let tx = .3, ty = .5, x = tx, y = ty, r = 0, tr = auto ? 1 : 0, user = false; const t0 = performance.now();
+  el.addEventListener('pointermove', e => { const b = el.getBoundingClientRect(); tx = (e.clientX-b.left)/b.width; ty = (e.clientY-b.top)/b.height; user = true; tr = 1; });
+  el.addEventListener('pointerleave', () => { user = false; tr = auto ? 1 : 0; });
+  (function loop(now){
+    if (!user && auto) { const t = (now - t0) / 1000; tx = .5 + Math.sin(t*.55) * .42; ty = .5 + Math.sin(t*1.1) * .3; }
+    const size = Math.max(160, el.offsetHeight * .55);
+    x += (tx-x)*.09; y += (ty-y)*.09; r += (tr*size-r)*.08;
+    el.style.setProperty('--mx', (x*100)+'%'); el.style.setProperty('--my', (y*100)+'%'); el.style.setProperty('--r', r+'px');
+    requestAnimationFrame(loop);
+  })(t0);
+}
+if (!reduce) { spotlight(document.getElementById('spot'), true); spotlight(document.getElementById('spot2'), false); }
+
+const stage = document.getElementById('stage');
+let list = WORK.slice(), cards = [], pos = 0, target = 0, filter = 'all', lastInteract = 0, shown = -1, lastStep = 0, inView = false;
+let dragging = false, sx = 0, st = 0, moved = 0;
+const mod = (a,n) => ((a % n) + n) % n;
+function nearest(i){ const n = list.length; let d = i - mod(pos, n); if (d > n/2) d -= n; if (d < -n/2) d += n; return d; }
+function build(){
+  stage.innerHTML = '';
+  cards = list.map((w,i) => {
+    const a = document.createElement('a');
+    a.className = 'card'; a.setAttribute('aria-label', w.n);
+    a.innerHTML = `<img src="assets/work/${w.img}.jpg" alt="${w.n} website" loading="lazy" width="1200" height="800"><span class="visit"></span>`;
+    a.addEventListener('click', e => {
+      if (moved > 6) { e.preventDefault(); return; }
+      const d = nearest(i);
+      if (Math.abs(d) > .4) { e.preventDefault(); target = Math.round(target) + Math.round(d); lastInteract = performance.now(); }
+    });
+    stage.appendChild(a); return a;
+  });
+  pos = target = 0; setCardLinks();
+}
+function setCardLinks(){ cards.forEach((c,i) => { const w = list[i]; if (w.cs) { c.href = link(w.cs); c.removeAttribute('target'); c.querySelector('.visit').textContent = T[lang].case + ' →'; } else { c.href = w.u; c.target = '_blank'; c.rel = 'noopener'; c.querySelector('.visit').textContent = T[lang].visit + ' ↗'; } }); }
+function frame(){
+  pos += (target - pos) * .085;
+  const n = list.length, w = stage.clientWidth, small = w < 640;
+  const R = small ? w * .9 : Math.min(w * .52, 900), th = small ? .62 : (n < 5 ? .5 : .42);
+  cards.forEach((c,i) => {
+    const d = nearest(i), a = d * th, ad = Math.abs(d);
+    const x = Math.sin(a) * R, z = (Math.cos(a) - 1) * R * .85, ry = -a * 52, rz = d * 3.2, yy = ad * ad * (small ? 10 : 18);
+    c.style.transform = `translate3d(${x}px,${yy}px,${z}px) rotateY(${ry}deg) rotateZ(${rz}deg)`;
+    c.style.opacity = ad > 3.2 ? 0 : Math.max(0, 1 - Math.max(0, ad - 2.2));
+    c.style.zIndex = 100 - Math.round(ad * 10);
+    c.classList.toggle('active', ad < .5);
+    c.tabIndex = ad < .5 ? 0 : -1;
+  });
+  const idx = mod(Math.round(target), n);
+  if (idx !== shown) { shown = idx; updateCaption(); }
+  if (!reduce && inView && !dragging && n > 1 && performance.now() - lastInteract > 5500 && performance.now() - lastStep > 3800) { target += 1; lastStep = performance.now(); }
+  requestAnimationFrame(frame);
+}
+const capName = document.getElementById('capName'), capMeta = document.getElementById('capMeta'), counter = document.getElementById('counter');
+function updateCaption(){
+  if (!list.length) return;
+  const i = mod(Math.round(target), list.length), w = list[i];
+  capName.textContent = w.n; capMeta.textContent = L(w.m);
+  counter.innerHTML = `<b>${String(i+1).padStart(2,'0')}</b> / ${String(list.length).padStart(2,'0')}`;
+  setCardLinks();
+}
+stage.addEventListener('pointerdown', e => { dragging = true; moved = 0; sx = e.clientX; st = target; stage.classList.add('drag'); lastInteract = performance.now(); });
+addEventListener('pointermove', e => { if (!dragging) return; const dx = e.clientX - sx; moved = Math.abs(dx); target = st - dx / (stage.clientWidth < 640 ? 220 : 360); });
+addEventListener('pointerup', () => { if (!dragging) return; dragging = false; stage.classList.remove('drag'); target = Math.round(target); lastInteract = performance.now(); });
+stage.addEventListener('dragstart', e => e.preventDefault());
+const go = d => { target = Math.round(target) + d; lastInteract = performance.now(); };
+document.getElementById('prev').onclick = () => go(-1);
+document.getElementById('next').onclick = () => go(1);
+stage.tabIndex = 0;
+stage.addEventListener('keydown', e => { if (e.key === 'ArrowRight') go(1); if (e.key === 'ArrowLeft') go(-1); });
+new IntersectionObserver(es => es.forEach(e => inView = e.isIntersecting), {threshold:.35}).observe(stage);
+
+const dial = document.getElementById('dial');
+function renderDial(){
+  dial.querySelectorAll('button').forEach(b => b.remove());
+  const ai = FILTERS.findIndex(f => f.id === filter), small = innerWidth < 640, flat = innerWidth < 980;
+  dial.classList.toggle('flat', flat);
+  FILTERS.forEach((f,i) => {
+    const b = document.createElement('button'); b.type = 'button'; b.setAttribute('role','tab');
+    b.textContent = L(f.l); b.setAttribute('aria-selected', f.id === filter); if (f.id === filter) b.classList.add('on');
+    const ang = (i - ai) * (small ? 48 : 30) * Math.PI / 180, R = small ? 150 : 380;
+    if (!flat) b.style.transform = `translate(calc(-50% + ${Math.sin(ang)*R}px), ${(1-Math.cos(ang))*R*.45}px) rotate(${ang*.3}rad)`;
+    b.onclick = () => { if (filter === f.id) return; filter = f.id; list = f.id === 'all' ? WORK.slice() : WORK.filter(w => w.c === f.id); build(); shown = -1; lastInteract = performance.now(); renderDial(); };
+    dial.appendChild(b);
+  });
+}
+addEventListener('resize', renderDial);
+
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), {threshold:.12, rootMargin:'0px 0px -60px 0px'});
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+const stepsEl = document.getElementById('steps');
+function updateSteps(){
+  const r = stepsEl.getBoundingClientRect(), p = Math.min(1, Math.max(0, (innerHeight * .75 - r.top) / (r.height + innerHeight * .25)));
+  stepsEl.style.setProperty('--p', p);
+  const els = stepsEl.querySelectorAll('.step'); els.forEach((s,i) => s.classList.toggle('lit', p >= i / els.length + .02));
+}
+addEventListener('scroll', updateSteps, {passive:true});
+
+const cur = document.querySelector('.cur');
+if (matchMedia('(hover:hover)').matches && !reduce) {
+  let cx = 0, cy = 0, x = 0, y = 0;
+  addEventListener('pointermove', e => { cx = e.clientX; cy = e.clientY; cur.style.opacity = 1; });
+  document.addEventListener('pointerover', e => cur.classList.toggle('big', !!e.target.closest('a,button,.stage,label,summary')));
+  (function loop(){ x += (cx-x)*.2; y += (cy-y)*.2; cur.style.transform = `translate(${x}px,${y}px)`; requestAnimationFrame(loop); })();
+}
+
+build();
+applyLang(lang);
+requestAnimationFrame(frame);
+requestAnimationFrame(() => setTimeout(() => document.body.classList.add('ready'), 80));
+})();
+</script>
+</body>
+</html>
