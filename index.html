@@ -6,8 +6,8 @@
 <title>Adverix | Ecommerce & growth studio</title>
 <meta name="description" content="Adverix is an ecommerce and growth studio. Design, development, marketing and AI for online brands, from one team you reach directly on WhatsApp.">
 <link rel="canonical" href="https://adverix.co/">
-<link rel="alternate" hreflang="en" href="https://adverix.co/?lang=en">
-<link rel="alternate" hreflang="he" href="https://adverix.co/?lang=he">
+<link rel="alternate" hreflang="en" href="https://adverix.co/">
+<link rel="alternate" hreflang="he" href="https://adverix.co/he/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
@@ -52,8 +52,8 @@ document.addEventListener('click',function(e){var a=e.target.closest&&e.target.c
     </nav>
     <div class="nav-right">
       <div class="lang" role="group" aria-label="Language">
-        <button type="button" data-lang="en" aria-pressed="true">EN</button>
-        <button type="button" data-lang="he" aria-pressed="false">עב</button>
+        <a href="index.html" hreflang="en" aria-current="true">EN</a>
+        <a href="he/index.html" hreflang="he" aria-current="false">עב</a>
       </div>
       <a data-wa target="_blank" rel="noopener" class="btn btn-dark" data-i18n="cta_call">Chat on WhatsApp</a>
       <button class="burger" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
@@ -72,7 +72,7 @@ document.addEventListener('click',function(e){var a=e.target.closest&&e.target.c
 
 <main id="top">
   <section class="hero wrap">
-    <span class="eyebrow fade"><i></i><span data-i18n="hero_eyebrow">Ecommerce & growth studio · US & Israel</span></span>
+    <span class="eyebrow fade"><i></i><span data-i18n="hero_eyebrow">Ecommerce & growth studio</span></span>
     <h1 class="h1 spot" id="spot">
       <span class="base"><span class="line"><span data-i18n="hero_l1">You run the brand.</span></span><span class="line"><span data-i18n="hero_l2">We run the <span class="grad-text">store</span><span class="dot">.</span></span></span></span>
       <span class="paint" aria-hidden="true"><span class="line"><span data-i18n="hero_l1">You run the brand.</span></span><span class="line"><span data-i18n="hero_l2">We run the <span class="grad-text">store</span><span class="dot">.</span></span></span></span>
@@ -221,7 +221,7 @@ const T = {
  en:{
   nav_services:'Services',nav_work:'Work',nav_ind:'Industries',nav_how:'How we work',nav_about:'About',nav_blog:'Blog',nav_contact:'Contact',
   cta_call:'Chat on WhatsApp',cta_work:'See our work',cta_how:'How we work',
-  hero_eyebrow:'Ecommerce & growth studio · US & Israel',
+  hero_eyebrow:'Ecommerce & growth studio',
   hero_l1:'You run the brand.',hero_l2:'We run the <span class="grad-text">store</span><span class="dot">.</span>',hero_l2p:'We run the store.',
   hero_lead:'Design, development, marketing and AI for ecommerce brands. One team you reach directly on WhatsApp, for everything from a new collection page to the flow that wins back abandoned carts.',
   hero_note:'Free first call · Direct on WhatsApp · No commitment',
@@ -339,7 +339,7 @@ const WHY = [
 const FAQ = [
  [['What does Adverix do?','מה Adverix עושה?'],['We design, build and run online stores and websites, and grow them with marketing, email and AI. Whatever the store needs next, one team handles it.','אנחנו מעצבים, בונים ומנהלים חנויות אונליין ואתרים, ומצמיחים אותם עם שיווק, מייל ו-AI. מה שהחנות צריכה עכשיו, צוות אחד מטפל בזה.']],
  [['Do you only work with ecommerce brands?','אתם עובדים רק עם חנויות אונליין?'],['Ecommerce is our focus, mostly fashion, jewelry, art and design. We also build and grow websites for service businesses.','איקומרס הוא הפוקוס שלנו, בעיקר אופנה, תכשיטים, אמנות ועיצוב. אנחנו בונים ומצמיחים גם אתרים לעסקי שירותים.']],
- [['Do you work with US businesses?','אתם עוזרים למותגים ישראלים למכור בחו"ל?'],['Yes. We work with clients in the US and Israel, remotely, with calls in your time zone.','כן, וזה אחד הדברים שאנחנו הכי אוהבים לעשות. חנות באנגלית, מחירים בדולרים, משלוחים בינלאומיים ושיווק לקהל בארה"ב. אנחנו עובדים עם לקוחות בארה"ב ומכירים את השוק.']],
+ [['Do you work with US businesses?','אתם עוזרים למותגים ישראלים למכור בחו"ל?'],['Yes. We work with clients across the US, remotely, with calls in your time zone.','כן, וזה אחד הדברים שאנחנו הכי אוהבים לעשות. חנות באנגלית, מחירים בדולרים, משלוחים בינלאומיים ושיווק לקהל בארה"ב. אנחנו עובדים עם לקוחות בארה"ב ומכירים את השוק.']],
  [['Can you work on a store someone else built?','אפשר לעבוד על חנות שמישהו אחר בנה?'],['Yes. A new feature, a broken integration, a faster page or a full takeover. A lot of our work starts on stores built elsewhere.','כן. פיצ\'ר חדש, אינטגרציה שנשברה, עמוד מהיר יותר או העברה מלאה אלינו. הרבה מהעבודה שלנו מתחילה בחנויות שנבנו במקום אחר.']],
  [['How much does it cost?','כמה זה עולה?'],['It depends on the scope. After a short call you get a clear price before any work starts.','זה תלוי בהיקף. אחרי שיחה קצרה מקבלים מחיר ברור לפני שמתחילים לעבוד.']],
  [['Which platforms do you use?','על אילו פלטפורמות אתם עובדים?'],['Mostly Shopify, plus WordPress, Webflow or custom code when a project needs it.','בעיקר Shopify, וגם וורדפרס, Webflow או קוד מותאם כשהפרויקט צריך.']],
@@ -358,10 +358,12 @@ const WORK = [
 ];
 const FILTERS = [{id:'all',l:['All','הכל']},{id:'shop',l:['Stores','חנויות']},{id:'site',l:['Websites','אתרים']},{id:'saas',l:['SaaS','SaaS']}];
 
-let lang = 'en';
-try { const s = new URLSearchParams(location.search).get('lang') || localStorage.getItem('adx-lang'); if (s === 'he' || s === 'en') lang = s; } catch(e){}
+// The language is fixed per address: / is English, /he/ is Hebrew (generated by src/build.mjs).
+let lang = document.documentElement.lang === 'he' ? 'he' : 'en';
+if (lang === 'en' && new URLSearchParams(location.search).get('lang') === 'he') location.replace('he/');
+const ROOT = lang === 'he' ? '../' : '';
 const L = a => a[lang === 'he' ? 1 : 0];
-const link = slug => (lang === 'he' ? 'he/' : '') + slug + '.html';
+const link = slug => slug + '.html';
 const arrowSvg = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h8v8M12 4L4 12"/></svg>';
 
 function renderLinks(){
@@ -402,12 +404,9 @@ function applyLang(l){
   lang = l;
   document.documentElement.lang = l; document.documentElement.dir = l === 'he' ? 'rtl' : 'ltr';
   document.querySelectorAll('[data-i18n]').forEach(el => { const v = T[l][el.dataset.i18n]; if (v != null) el.innerHTML = v; });
-  document.querySelectorAll('.lang button').forEach(b => b.setAttribute('aria-pressed', b.dataset.lang === l));
-  document.title = l === 'he' ? 'Adverix | סטודיו לצמיחה' : 'Adverix | Ecommerce & growth studio';
-  try { localStorage.setItem('adx-lang', l); } catch(e){}
+  document.title = l === 'he' ? 'Adverix | סטודיו לאיקומרס וצמיחה' : 'Adverix | Ecommerce & growth studio';
   renderLinks(); renderMega(); renderServices(); renderCompare(); renderSteps(); renderWhy(); renderFaq(); renderFooter(); renderDial(); updateCaption();
 }
-document.querySelectorAll('.lang button').forEach(b => b.addEventListener('click', () => applyLang(b.dataset.lang)));
 
 const nav = document.getElementById('nav'); let lastY = 0;
 addEventListener('scroll', () => { const y = scrollY; nav.classList.toggle('hide', y > lastY && y > 300 && !document.body.classList.contains('menu-open')); lastY = y; }, {passive:true});
@@ -441,7 +440,7 @@ function build(){
   cards = list.map((w,i) => {
     const a = document.createElement('a');
     a.className = 'card'; a.setAttribute('aria-label', w.n);
-    a.innerHTML = `<img src="assets/work/${w.img}.jpg" alt="${w.n} website" loading="lazy" width="1200" height="800"><span class="visit"></span>`;
+    a.innerHTML = `<img src="${ROOT}assets/work/${w.img}.jpg" alt="${w.n} website" loading="lazy" width="1200" height="800"><span class="visit"></span>`;
     a.addEventListener('click', e => {
       if (moved > 6) { e.preventDefault(); return; }
       const d = nearest(i);

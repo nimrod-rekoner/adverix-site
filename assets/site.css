@@ -557,3 +557,5 @@ html[dir="rtl"] .mega h4{letter-spacing:.04em;font-size:13px}
   .btn{white-space:normal;height:auto;min-height:54px;padding-block:14px;text-align:center;line-height:1.25}
   .search .btn{padding-inline:20px}
 }
+
+@media (max-width:640px){.lang a{padding:8px 10px}}
